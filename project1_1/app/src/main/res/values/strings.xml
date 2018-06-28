@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">project1_1</string>
+    <string name="strBtn3">가져온 버튼</string>
+
+
+    <string name="title">명언</string>
+    <string name="description">세상을 이기는 사람보다 자기 자신을 이기는 사람이 승리자다
+    매사 최선을 다하며
+        매사 정성을 다하여
+        하늘을 감동시키는 최선의 최선으로
+    </string>
+
+
+
+</resources>

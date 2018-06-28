@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">project4_3TabHost</string>
+    <string name="song">
+        LinearLayout은 세로 또는 가로의 단일 방향으로 모든 하위 항목을 정렬하는 뷰 그룹입니다.
+
+    </string>
+
+</resources>

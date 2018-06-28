@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.smart_03.project1_1.MainActivity"
+    android:orientation="vertical"
+    >
+    <!--   xml 구조 알아야 나중에 오류잡아낼수!   -->
+    <!--            시작태그 속성=값....          </끝태그      -->
+    <!--  시작태그  속성=값 />       vs      <Button> </Button>   -->
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="클릭1"
+        android:background="#077777"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:visibility="visible"
+        android:enabled="true"
+        android:rotation="10" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="53dp" />
+    <Button
+        android:id = "@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@string/strBtn3"> <!--  string.xml 에서 strBtn3에 값 가져오라는것  -->
+    </Button>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textColor="#006211"
+        android:textSize = "30dp"
+        android:typeface="monospace"
+        android:textStyle="bold"
+        android:background="#880"
+        />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/description" />
+</LinearLayout>

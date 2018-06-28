@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="선택을 시작하실래요?" />
+
+    <CheckBox
+        android:id="@+id/ChkAgree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="시작!" />
+
+    <TextView
+        android:id="@+id/Text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="좋아하는 동물은 어떻게 되시나요?"
+        android:visibility="invisible" />
+
+
+
+
+    <!-- 라디오 그룹 만들기 (중복 선택 안되게 하려면 그룹을 만들어야!)-->
+    <RadioGroup
+        android:id="@+id/Rgroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible">
+
+        <RadioButton
+            android:id="@+id/RdoDog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="강아지"
+            android:visibility="visible" />
+
+        <RadioButton
+            android:id="@+id/RdoCat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="고양이"
+            android:visibility="visible" />
+
+        <RadioButton
+            android:id="@+id/RdoRabbit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="토끼"
+            android:visibility="visible" />
+
+
+    </RadioGroup>
+    <!-- 라디오 그룹 마지막에 </RadioGroup> 넣어줘서 완성 -->
+
+
+    <Button
+        android:id="@+id/BtnOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="선택할래요"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/ImgPat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/dog" />
+
+</LinearLayout>

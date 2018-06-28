@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/bmiKg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="체중"
+        />
+
+    <EditText
+        android:id="@+id/bmiHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="신장"
+        />
+
+    <Button
+        android:id="@+id/bmiButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI 확인" />
+
+    <TextView
+        android:id="@+id/bmiResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="결과값"
+        android:textSize="35dp"
+        />
+
+    <TextView
+        android:id="@+id/bmiResult2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="비만확인"
+        android:textSize="35dp"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+
+        />
+</LinearLayout>
